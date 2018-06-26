@@ -1,0 +1,747 @@
+/*GENERAL*/
+body{
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+
+header{
+    display: inline-block;
+}
+
+ul{
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+section{
+    width: 100%;
+    height: 100%;
+}
+    
+h1 {
+    font-size: 40px;
+    color: #efefef;
+    text-align: center;
+    padding-top: 49vh;
+}
+
+font {
+    border: 2px solid #efefef;
+}
+
+
+/*MENU*/
+#menu {
+    text-transform: uppercase;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 17px;
+    background-color: black;
+    width: 100%;
+    height: 50px;
+    float: top;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    padding-top: 2px;
+}
+
+#menu ul{
+    text-align: center;
+    padding: 5px;
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+#reseau {
+    position: relative;
+    width: 20%;
+    height: 20%;
+    float: right;
+    display: inline-block;
+    margin: auto 0;
+}
+
+#reseau a{
+    display: inline-block;
+    margin-right: 3px;
+    width: 45px;
+    height: 45px;
+    padding: 6px;
+    margin-left: 5%;
+}
+
+#reseau a img{
+    width: 100%;
+    height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    padding: 2px;
+}
+
+#reseau a img:hover{
+    /*background-color: rgba(255,255,255,0.95);
+    border-radius: 3px;
+    transition: 0.5s;
+    transform: scale(1.3);
+*/
+}
+
+.button{
+    display: inline-block;
+}
+
+.button a{
+    color: #fff;
+    padding: 10px;
+    margin-top: 5px;
+    font-size: 20px;
+}
+
+.button a:hover{
+    /*background-color: rgba(255,255,255,0.95);
+    color: black;
+    border-radius: 1px;*/
+
+    font-size: 20px;
+    transition: 0.5s;
+}
+
+#logo{
+    position: absolute;
+    height: 10%;
+    width: 10%;
+    float: left;
+    width: 100px;
+    height: 45px;
+    color:white;
+    line-height: 100px;
+    margin-left: 2px;
+}
+
+/*PAGE 1*/
+
+#studio{
+    height: 40%;
+    width: 35%;
+    text-align: center;
+    margin-left: 17%;
+}
+/*#studio{
+    height: 40%;
+    width: 35%;
+    text-align: center;
+    margin-left: 32.5%;
+    margin-top: 10%;
+    background-color: rgba(255, 255, 2552, 0.7);
+    border-radius: 2px;
+    z-index: 2;
+}*/
+
+#page1{
+    background-image: url(a.jpg);
+    background-size: cover;
+}
+
+.page1{
+    background-image: url(a.jpg);
+    background-size: cover;
+}
+
+/*
+#carousel-example-generic{
+    z-index: 1;
+}
+
+#carousel-example-generic div div img{
+    height: 100%;
+    width: 100%;
+}
+*/
+/*#page1 img{
+    position: relative;
+    max-height: 100%;
+    max-width: 50%;
+    display: inline-block;
+    z-index: 1;
+}
+
+#first{
+    float: right;
+    z-index: 1;
+    background-image: url(locaux/9.jpg);
+    background-size: cover;
+}
+
+#sec{
+    float: left;
+    z-index: 1;
+    background-image: url(1.jpg);
+    background-size: cover;
+}
+
+#pre{
+    position: absolute;
+    z-index: 2;
+    width: 445px;
+    width: 450px;
+    font-family: 'Fjalla One', sans-serif;
+    background-color: rgba(255,255,255,0.9);
+    padding: 10px;
+    border-radius: 3px;
+    font-size: 15px;
+    float: right;
+    margin-top: 20%;
+    margin-left: 35%;
+}
+
+
+#pre p{
+    padding-top: 10px;
+    font-size: 15px;
+}
+
+#pre h5{
+    font-size: 30px;
+}*/
+
+/*PAGE2*/
+/*DIAPOSITIVE LOCAL*/
+
+.page2{
+    background-image: url(10.jpg);
+    background-size: cover;
+    margin: 0;
+    display: inline-block;
+}
+
+#loc{
+    float: right;
+    margin-right: 10%;
+    margin-top: 13%;
+     background-color: rgba(255,255,255,0.9);
+    border-radius: 3px;
+    z-index: 2;
+    width: 500px;
+    height: 400px;
+    display: inline-block;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 1.5em;
+    padding: 2%;
+}
+
+#loc h5{
+    font-size: 2em;
+    font-weight: bold;
+}
+/*
+*, *:before, *:after{
+    box-sizing: border-box;
+}
+
+.cadre_diapo .interieur_diapo .cadre_img img, .navigation_diapo li a img{
+    max-width: 100%;
+    image-rendering: optimizeQuality;
+    pointer-events: none;
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+}
+*/
+/*pour le saut de page, on cree une class que l'on met en display:none*/
+/*.target{
+    display: none;
+}
+
+
+.cadre_diapo{
+    z-index: 2;
+    width: 600px;
+    height: 540px;
+    margin: 20px auto;
+    overflow: hidden;
+    margin-top: 100px;
+    background-color: rgba(255,255,255,0.7);
+    border-radius: 3px;
+    float: left;
+    margin-left: 10%;
+}
+
+.interieur_diapo{
+    height: 398px;
+    position: relative;
+    width: 400%;
+    transition: .6s ease;
+    margin: 5px 7px;
+}
+
+.cadre_img{
+    position: relative;
+    width: 600px;
+    float: left;
+}
+
+
+#id1:target ~ .cadre_diapo .interieur_diapo{
+    margin-left: 0;*/
+}/*image 1*/
+/*
+#id2:target ~ .cadre_diapo .interieur_diapo{
+    margin-left: -100%;*/
+}/*image 2*/
+/*
+#id3:target ~ .cadre_diapo .interieur_diapo{
+    margin-left: -200%;*/
+}/*image 3*/
+/*
+#id4:target ~ .cadre_diapo .interieur_diapo{
+    margin-left: -300%;*/
+}/*image 4*/
+
+/*
+.description{
+    position: absolute;
+    left: 0;
+    top: 2%;
+    text-align: center;
+    width: 40%;
+    height: 30px;
+    line-height: 30px;
+    color: white;
+    background: hsla(0,0%,0%,.35);
+}
+
+*/
+/*navigation avec images miniatures*/
+/*.navigation_diapo{
+    display: inline-block;
+    list-style: none;
+}
+
+.navigation_diapo li{
+    float: left;
+}
+
+.navigation_diapo li img{
+    pointer-events: auto;ne pas reprendre
+    border: 3px solid white;
+    transition: .6s;
+}
+
+.navigation_diapo li img:hover{
+    box-shadow: 0 0 5px hsla(0,0%,0%,.4);
+}
+
+.cadre_diapo .navigation_diapo li a{
+    display: inline-block;
+    width: 120px;
+    margin: 0 5px;
+    height: 80px;
+}
+
+@media screen and (max-width:62.75em){
+    .cadre_diapo{
+        width: 100%;
+        height: 100%;
+    }
+    .cadre_img{
+        width: 25%;
+    }
+    .interieur_diapo{
+        height: auto;
+    }
+    .navigation_diapo li a{
+        height: 100%;
+        width: 80px;
+    }
+    .navigation_diapo li img:hover{
+        box-shadow: none;
+    }
+}
+
+
+@media screen and (max-width:41.6em){
+    .description{
+        font-size: 75%;
+    }
+}
+
+@media screen and (max-width:25em){
+    .navigation_diapo li a{
+        height: 100%;
+        width: 50px;
+    }
+}*/
+
+/*PAGE3*/
+/*DIAPOSITIVE MATERIEL*/
+#page3{
+    background-image: url(4.jpg);
+    background-size: cover;
+    margin: 0;
+}
+
+#carousel-example-generic2 div div img{
+    height: 100%;
+    width: 100%;
+    padding: 5% 15%;
+}
+
+.carousel-caption{
+    color: black;
+}
+/*///////////////////////////////////////////////////////////////////////////////////////////////*/
+.galerie{
+    margin: 10px 50px;
+    text-align: center;
+    border-radius: 3px;
+    padding: 5px;
+    width: 90%;
+    height: 15%;
+    display: inline-block;
+}
+
+.galerie2{
+    margin: 10px;
+    text-align: center;
+    border-radius: 3px;
+    padding: 5px;
+    width: 90%;
+    height: 25%;
+    display: inline-block;
+}
+
+.image{
+    width: 20%;
+    height: 70%;
+    display: inline-block;
+}
+
+.image img{
+    max-width: 100%;
+    max-height: 100%;
+    display: inline-block;
+    border-radius: 2px;
+}
+
+.image img:hover{
+    transform: scale(9.5);
+    width: 30%;
+    margin-top: 20%;
+    margin-left: 30%;
+    margin-right: 20%;
+    transition: 1s;
+}
+
+.image2{
+    width: 10%;
+    height: 70%;
+    display: inline-block;
+    margin-right: 1%;
+    margin-left: 1%;
+}
+
+.image2 img{
+    max-width: 100%;
+    max-height: 100%;
+    display: inline-block;
+    margin: 10px;
+    border-radius: 2px;
+}
+
+.image2 img:hover{
+    transform: scale(10);
+    width: 30%;
+    margin-bottom: 50%;
+    transition: 1s;
+}
+
+.description2{
+    font-size: 15px;
+    color: black;
+    padding: 1px;
+    border-radius: 1px;
+    font-style: italic;
+}
+
+.mat{
+    margin-top: 5%;
+    font-size: 30px;
+    color: #fff;
+    text-shadow: 2px 2px #111;
+    text-align: center;
+    font-family: 'Fjalla One', sans-serif;
+    padding: 3px;
+    margin-bottom: 3%;
+}
+
+
+
+
+
+
+/*/////////////////////////////////////////////////////////////////////////////////*/
+/*GRILLE*/
+#grille {
+    max-width:50%;
+    /*margin:0 auto; center aligned*/
+    margin-top: 5%;
+    float: left;
+    margin-left: 3%;
+    padding:0;
+    font-size: 0.2em; /* Remember to change it back to normal font size if have captions */
+    list-style: none;
+    background-color: #000;
+}
+#grille li {
+    display: inline-block;
+    *display:inline;/*for IE6 - IE7*/
+    width:25%;
+    vertical-align:middle;
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+        
+/* The wrapper for each item */
+.grille-cellule {
+    /*margin:12px;
+    box-shadow:0 0 6px rgba(0,0,0,0.3);*/
+    display:block;
+    position: relative;
+    overflow:hidden;
+}
+        
+/* If have the image layer */
+.grille-img {
+    display:block;
+    width: 100%;
+    height: auto;
+    border:none;
+    transform:scale(1);
+    transition:all 1s;
+}
+
+#grille li:hover .grille-img {
+    transform:scale(1.05);
+}
+        
+/* If have the overlay layer */
+.grille-hover {
+    position: absolute;
+    display:block;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    background: grey url(img/link.png) no-repeat center 20%;
+    background-size:50px 50px;
+    opacity:0;
+    filter:alpha(opacity=0);/*For IE6 - IE8*/
+    transition:all 0.6s;
+}
+#grille li:hover .grille-hover {
+    opacity:0.8;
+}
+
+/* If have captions */
+.grille-description {
+    display:block;
+    padding:0 30px;
+    box-sizing:border-box;
+    position:absolute;
+    left:0;
+    width:100%;
+    text-align:center;
+    text-transform:capitalize;
+    font-size:18px;
+    font-weight:bold;
+    font-family: 'Oswald', sans-serif;
+    font-weight:normal!important;
+    top:40%;
+    color:white;
+    opacity:0;
+    filter:alpha(opacity=0);/*For older IE*/
+    transform:translateY(-20px);
+    transition:all .3s;
+}
+#grille li:hover .grille-description {
+    transform:translateY(0px);
+    opacity:0.9;
+}
+
+@media (max-width: 9000px) {
+    #grille li {
+        width:25%;
+    }
+}
+
+@media (max-width: 700px) {
+    #grille li {
+        width:33.33%;
+    }
+}
+
+@media (max-width: 550px) {
+    #grille li {
+        width:50%;
+    }
+}
+
+
+/*
+.galerie{
+    margin: 10px 50px;
+    text-align: center;
+    border-radius: 3px;
+    padding: 5px;
+    width: 90%;
+    height: 15%;
+    display: inline-block;
+}
+
+.galerie2{
+    margin: 10px;
+    text-align: center;
+    border-radius: 3px;
+    padding: 5px;
+    width: 90%;
+    height: 25%;
+    display: inline-block;
+}
+
+.image{
+    width: 20%;
+    height: 70%;
+    display: inline-block;
+}
+
+.image img{
+    max-width: 100%;
+    max-height: 100%;
+    display: inline-block;
+    border-radius: 2px;
+}
+
+.image img:hover{
+    transform: scale(9.5);
+    width: 30%;
+    margin-top: 20%;
+    margin-left: 30%;
+    margin-right: 20%;
+    transition: 1s;
+}
+
+.image2{
+    width: 10%;
+    height: 70%;
+    display: inline-block;
+    margin-right: 1%;
+    margin-left: 1%;
+}
+
+.image2 img{
+    max-width: 100%;
+    max-height: 100%;
+    display: inline-block;
+    margin: 10px;
+    border-radius: 2px;
+}
+
+.image2 img:hover{
+    transform: scale(10);
+    width: 30%;
+    margin-bottom: 50%;
+    transition: 1s;
+}
+
+.description2{
+    font-size: 15px;
+    color: black;
+    padding: 1px;
+    border-radius: 1px;
+    font-style: italic;
+}
+
+.mat{
+    margin-top: 5%;
+    font-size: 30px;
+    color: #fff;
+    text-shadow: 2px 2px #111;
+    text-align: center;
+    font-family: 'Fjalla One', sans-serif;
+    padding: 3px;
+    margin-bottom: 3%;
+}
+*/
+
+
+/*PAGE4*/
+/*TARIFS ET LOCALISATION*/
+#page4{
+    display: inline-block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.page4{
+    height: 100%;
+    width: 100%;
+    display: block;
+    background-image: url(locaux/7.jpg);
+    background-size: cover;
+}
+
+#partie{
+    display: inline-block;
+}
+
+#tarif{
+    background-color: rgba(255,255,255,0.8);
+    display: inline-block;
+    font-size: 20px;
+    float: left;
+    border-radius: 3px;
+    width: 20%;
+    height: 65%;
+    display: inline-block;
+    margin-top: 7%;
+    margin-left: 10%;
+}
+
+#geo{
+    font-family: 'Open Sans Condensed', sans-serif;
+    background-color: rgba(255,255,255,0.8);
+    display: inline-block;
+    margin: 10%;
+    float: right;
+    right: 25%;
+    padding: 5px;
+    border-radius: 3px;
+}
+
+#map {
+    padding: 5px;
+}
+
+/*PAGE5*/
+/*CONTACT*/
+
+#page5{
+    text-align: center;
+    background-image: url(4.jpg);
+    background-size: cover;
+    margin: 0;
+}
+
+#formulaire{
+    margin: 15%;
+    background-color: rgba(255,255,255,0.7);
+    border-radius: 3px;
+    padding: 5px;
+}
+
+/*A JETER OU PAS*/
