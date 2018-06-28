@@ -145,3 +145,63 @@
                     <img src="materiel/fond.png">
                 </div>  
             </div>
+
+
+
+            <div class="galerie2">
+                <div class="image2">
+                    <div class=description2>2 x Profoto Parapluies: Blanc</div>
+                    <img src="materiel/11.png">
+                </div>
+                <div class="image2">
+                    <div class=description2>1 x Profoto StripSoftbox</div>
+                    <img src="materiel/12.jpg">
+                </div>
+                <div class="image2">
+                    <div class=description2>1 x Air Remote Profoto</div>
+                    <img src="materiel/13-2.jpg">
+                </div>
+                <div class="image2">
+                    <div class=description2>3 x Profoto D1 500w</div>
+                    <img src="materiel/14.jpeg">
+                </div>
+                <div class="image2">
+                    <div class=description2>1 x Profoto Softbox Octa 3'</div>
+                    <img src="materiel/15.jpg">
+                </div>
+                <div class="image2">
+                    <div class=description2>1 x Imac 27" + Capture One + Pack Adobe CC</div>
+                    <img src="materiel/16.png">
+                </div>
+                <div class="image2">
+                    <div class=description2>8 x Fonds Colorama Couleurs Différentes</div>
+                    <img src="materiel/fond.png">
+                </div>  
+            </div>
+
+
+            <!-- The grid: four columns -->
+            <div class="row">
+                <div class="column">
+                    <img src="PIC/MATERIEL/COLORAMA.jpg" alt="Nature" onclick="openImg(this);">
+                </div>
+                <div class="column">
+                    <img src="PIC/MATERIEL/IMAC.jpg" alt="Snow" onclick="openImg(this);">
+                </div>
+                <div class="column">
+                    <img src="PIC/MATERIEL/parapluie.png" alt="Mountains" onclick="openImg(this);">
+                </div>
+                <div class="column">
+                    <img src="PIC/MATERIEL/Profoto.jpg" alt="Lights" onclick="openImg(this);">
+                </div>
+            </div>
+
+            <!-- The expanding image container -->
+            <div class="container">
+                <!-- Close the image -->
+                <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+                <!-- Expanded image -->
+                <img id="expandedImg" style="width:100%">
+                <!-- Image text -->
+                <div id="imgtext"></div>
+            </div> 
